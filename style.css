@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page .clock {
+    height: 100vh;
+    box-sizing: border-box;
+    background: rgb(241,241,241);
+    background: radial-gradient(circle, rgba(241,241,241,1) 0%, rgb(235, 223, 176) 100%);
+    /* background: linear-gradient(rgb(224, 194, 194),rgb(240, 233, 216)); */
+}
+
+.unit {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.5rem;
+}
+
+.time {
+    text-align: center;
+    padding: 10px 30px;
+    box-shadow: rgba(50, 50, 93, 0.7) 15px 30px 60px -13px inset, rgba(0, 0, 0, 0.5) 0px 25px 36px -15px;
+    border-radius: 50px;
+    /* border: 2px solid white; */
+}
+
+span {
+    margin: 0px 10px;
+}
+
+#AmPm {
+    margin-left: 25px;
+    font-size: 3.5rem;
+    box-shadow: rgba(50, 50, 93, 0.7) 15px 35px 55px -25px inset, rgba(0, 0, 0, 0.5) 0px 25px 36px -15px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    align-items: end;
+}
+
+.unit {
+    position: relative;
+    bottom: 10px;
+}
